@@ -1,0 +1,11 @@
+
+{
+    "name": "css for confluence cloud",
+    "description": "cssカスタマイズ",
+    "version": "1.0",
+    "content_scripts": [{
+        "css": ["css/style.css"],
+        "matches": ["https://multifeed.atlassian.net/wiki/*"]
+    }],
+    "manifest_version": 3
+}
